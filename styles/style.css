@@ -212,7 +212,44 @@ font-size: 18px;
 background-color: white
 
 }
+/* service-section */
+.service{
+    padding: 100px 0 60px 0;
+}
+.service-title{
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 900;
+}
+.service-section{
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+    gap: 40px;
+}
 
+.service-section h2{
+font-size: 25px;
+font-weight: 700px;
+margin-bottom: 11px;
+}
+.service-section p{
+color: #737272;
+}
+
+.service-bg{
+    background-color:#c7c49b ;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+.service-bg:hover{
+  color: white;
+    background-color: #c96131;
+}
+.service-bg h6{
+    font-size: 16px;
+}
 
 
     
