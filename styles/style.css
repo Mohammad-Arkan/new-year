@@ -50,12 +50,7 @@ align-items: center;
 
 }
  /* .my-failur .image{ */
-    background-color:#F15B22;
-    width: 530px;
-    height: 530px;
-    border-radius: 50%;
-    background-position: bottom;
-/* } */
+
 .my-failur-content {
     margin-top: 20px;
 }
@@ -93,9 +88,38 @@ font-weight:600px;
     color:  #737272;
     font-size: 18px;
 }
+/* image */
+.bigimage{
+    width: 1000px;
+    height: 270px;
+    position: relative;
+    background-image: url(../images/watch.png);
+    background-size: cover;
+    border-radius: 5px;
+    margin: 100px 0;
+
+}
+.overlay{
+ background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+ padding: 50px 0 0 50px;
+ border-radius: 5px;
+}
+.overlay h2{
+    padding-bottom: 20px;
+
+}
+.overlay button{
+    font-size: 18px;
+    padding: 12px 23px;
+    color: #F15B22;
+    background-color:white ;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 120px;
+}
 
 /* awlays-section */
-.awlays-section{
+/* .awlays-section{
     margin: 100px 0;
     background-image: url(../images/watch.png);
    
@@ -117,7 +141,7 @@ font-weight:600px;
     background-color:white ;
     border-radius: 5px;
     border: 0;
-}
+} */
 
 /* contact style */
 .contact{
